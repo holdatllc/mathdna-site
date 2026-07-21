@@ -57,8 +57,17 @@
   Settings → your name → Subscriptions.</p>
 
   <h2>Data sharing</h2>
-  <p>We do not sell or share your data with third parties. Math content is served from our private
-  library; your usage is not shared with anyone.</p>
+  <p>We do not sell your data, and we do not share it with third parties for advertising. Your usage,
+  progress, and reasoning data stay on your device or with our own problem-library service.</p>
+
+  <h2>Optional answer-checker (Google Gemini)</h2>
+  <p>MathDNA includes an <em>optional</em>, off-by-default feature that checks your final answer. It works
+  only if you add your own Google AI Studio (Gemini) API key in Settings. When you use it, the text of the
+  problem you typed is sent <strong>directly from your device to Google</strong> (generativelanguage.googleapis.com,
+  over HTTPS) so Gemini can solve and check it, under
+  <a href="https://ai.google.dev/gemini-api/terms">Google's API terms</a>; it is never sent to us. Your API
+  key is stored only in your device's Keychain. Without a key, nothing is sent to Google and the free
+  reasoning check still runs entirely on-device.</p>
 
   <h2>Children's privacy</h2>
   <p>MathDNA is designed for learners of all ages. Because it collects no personal information and
